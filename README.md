@@ -15,12 +15,15 @@ Combined with `cowsay` you can have an animal or other character say a Mr. Roger
     
 2. Place the two neighborhood files (`neighborhood` and `neighborhood.dat`) in an accessible location, probably within your home directory somewhere. I placed mine in a new folder called `config`
 
+```
     mkdir ~/config
     cp ~/neighborsay/neighbor* ~/config/
+```
 
 3. Make sure it works:
 
-    fortune config/neighborhood | cowsay -f moose
+```
+    $ fortune config/neighborhood | cowsay -f moose
     / I hope you're proud of yourself for the \
     | times you've said 'yes,' when all it    |
     | meant was extra work for you and was    |
@@ -34,6 +37,7 @@ Combined with `cowsay` you can have an animal or other character say a Mr. Roger
                (__)\       )\/\
                    ||----w |
                    ||     ||
+```
 
 
 4. You can place this command in your `~/.bashrc` so that when a new terminal is opened a Mr. Rogers fortune appears. At the very bottom of the `~/.bashrc` file, place:
